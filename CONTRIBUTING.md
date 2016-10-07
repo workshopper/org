@@ -21,7 +21,7 @@ The workshopper organization has an open governance model and welcomes new contr
 
 ## Rules
 
-There are a few basic ground-rules for contributors:
+There are a few basic ground-rules for contributors (from [openopensource.org](http://openopensource.org/):
 
 1. **No `--force` pushes** or modifying the Git history in any way.
 1. **Non-master branches** ought to be used for ongoing work.
@@ -58,21 +58,14 @@ $ git remote add upstream git://github.com/workshopper/<workshopper>.git
 For developing new features and bug fixes, the `master` branch should be pulled
 and built upon.
 
-#### Dependencies
-
-Node.js has several bundled dependencies in the *deps/* and the *tools/*
-directories that are not part of the project proper. Any changes to files
-in those directories or its subdirectories should be sent to their respective
-projects. Do not send your patch to us, we cannot accept it.
-
 In case of doubt, open an issue in the
 [issue tracker](https://github.com/nodejs/node/issues/) or contact one of the
-[project Collaborators](https://github.com/nodejs/node/#current-project-team-members).
+**TODO: decide how to communicate workshopper maintainers** [workshopper stewards]().
 Especially do so if you plan to work on something big. Nothing is more
 frustrating than seeing your hard work go to waste because your vision
-does not align with the project team. Node.js has two IRC channels,
-[#Node.js](http://webchat.freenode.net/?channels=node.js) for general help and questions, and
-[#Node-dev](http://webchat.freenode.net/?channels=node-dev) for development of node core specifically.
+does not align with the project team. We have two main Gitter channels,
+[nodeschool/organizers](https://gitter.im/nodeschool/organizers) for general help and questions, and
+[nodeschool/workshoppers](https://gitter.im/nodeschool/workshoppers) for development of NodeSchool workshoppers specifically.
 
 
 ### Step 2: Branch
@@ -98,17 +91,14 @@ changed and why. Follow these guidelines when writing one:
 1. The first line should be 50 characters or less and contain a short
    description of the change. All words in the description should be in
    lowercase with the exception of proper nouns, acronyms, and the ones that
-   refer to code, like function/variable names. The description should
-   be prefixed with the name of the changed subsystem and start with an
-   imperative verb, for example, "net: add localAddress and localPort
-   to Socket".
+   refer to code, like function/variable names.
 2. Keep the second line blank.
 3. Wrap all other lines at 72 columns.
 
 A good commit log can look something like this:
 
 ```txt
-subsystem: explain the commit in one line
+explain the commit in one line
 
 Body of commit message is a few lines of text, explaining things
 in more detail, possibly giving some background about the issue
@@ -122,9 +112,6 @@ nicely even when it is indented.
 
 The header line should be meaningful; it is what other people see when they
 run `git shortlog` or `git log --oneline`.
-
-Check the output of `git log --oneline files_that_you_changed` to find out
-what subsystem (or subsystems) your changes touch.
 
 If your patch fixes an open issue, you can add a reference to it at the end
 of the log. Use the `Fixes:` prefix and the full issue URL. For example:

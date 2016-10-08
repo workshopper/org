@@ -58,9 +58,7 @@ $ git remote add upstream git://github.com/workshopper/<workshopper>.git
 For developing new features and bug fixes, the `master` branch should be pulled
 and built upon.
 
-In case of doubt, open an issue in the
-[issue tracker](https://github.com/nodejs/node/issues/) or contact one of the
-**TODO: decide how to communicate workshopper maintainers** [workshopper stewards]().
+In case of doubt, open an issue in the specific workshopper's issues section or contact one of the maintainers listed in that workshopper's README.
 Especially do so if you plan to work on something big. Nothing is more
 frustrating than seeing your hard work go to waste because your vision
 does not align with the project team. We have two main Gitter channels,
@@ -88,12 +86,11 @@ $ git config --global user.email "j.random.user@example.com"
 Writing good commit logs is important. A commit log should describe what
 changed and why. Follow these guidelines when writing one:
 
-1. The first line should be 50 characters or less and contain a short
-   description of the change. All words in the description should be in
-   lowercase with the exception of proper nouns, acronyms, and the ones that
-   refer to code, like function/variable names.
+1. The first line should be a short description of the change. All words in
+   the description should be in lowercase with the exception of proper nouns,
+   acronyms, and the ones that refer to code, like function/variable names.
 2. Keep the second line blank.
-3. Wrap all other lines at 72 columns.
+3. Follow with a longer description of your changes.
 
 A good commit log can look something like this:
 
@@ -104,10 +101,8 @@ Body of commit message is a few lines of text, explaining things
 in more detail, possibly giving some background about the issue
 being fixed, etc. etc.
 
-The body of the commit message can be several paragraphs, and
-please do proper word-wrap and keep columns shorter than about
-72 characters or so. That way `git log` will show things
-nicely even when it is indented.
+The body of the commit message can be several paragraphs, with
+line breaks as necessary.
 ```
 
 The header line should be meaningful; it is what other people see when they

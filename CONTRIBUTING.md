@@ -3,7 +3,7 @@
 ## Code of Conduct
 
 The Code of Conduct explains the *bare minimum* behavior
-expectations the Node Foundation requires of its contributors.
+expectations the Workshopper organization requires of its contributors.
 [Please read it before participating.](./code_of_conduct.md)
 
 ## Issue Contributions

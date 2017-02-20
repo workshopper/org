@@ -20,8 +20,11 @@ i.e. On Feb. 17, 2017 this would include following versions:
 
 ## Operating Systems & CLI's
 
-Workshoppers should run on all Systems that the latest version Node.js runs on. There are however restrictions on
-command lines to support: Particularily the cygwin bash on windows is problematic.
+Workshoppers should run on user-facing operation systems that might reasonably be used at study events:
+
+**Windows, Mac OS, debian-based(Ubuntu, LinuxMint) and Raspberry PI**.
+
+There are however restrictions on command lines to support: Particularily the cygwin bash on windows is problematic.
 
 See https://github.com/nodejs/node/issues/3006
 

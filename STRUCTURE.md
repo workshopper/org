@@ -78,5 +78,4 @@ repository if you want to become an maintainer.
 ### Deploy Team
 
 The Deploy team _([link](https://github.com/orgs/workshopper/teams/deploy) only works if you are an org member)_ are members
-that have access to write access to all repos and the permission to deploy every repo to 
-
+that have access to write access to all repos and the permission to deploy every repo to NPM.

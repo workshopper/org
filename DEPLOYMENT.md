@@ -1,10 +1,12 @@
-# [DRAFT] Deployment of workshoppers
+# Deployment of workshoppers
 
-Suggesting steps to organize the process of publishing changes from workshoppers to npm.
+Below you can find details regarding the deployment process of [workshoppers on npm](https://www.npmjs.com/org/workshopper). 
+This information is mainly aimed to be used by [workshopper teams](https://github.com/orgs/workshopper/teams).
 
-## Workshoppers versions
+## Workshoppers versioning
 
-Below, you can find a dashboard monitoring differences in versions of workshopper packages between github and npm.
+In the table below you will find an overview of package versioning
+between latest release in github and npm.
 
 workshopper | NPM version   | Master of workshopper | Build | NodeJs LTS compatible |
 ------------| ----------- | --------------------- | ----- | ---- |
@@ -13,37 +15,42 @@ javascripting | 2.6.1 | [2.6.1](https://github.com/workshopper/javascripting) | 
 
 ## Requirements
 
-Please be kind to prepare the following prerequisites before asking or publishing your package to npm:
+Please prepare the following prerequisites for package deployment:
 
-- New version of the package should follow semantic versioning
-- Ensure that the github repository of the workshopper is correctly setup and working with [Travis CI](http://travis-ci.org/).
-- Master branch of workshopper github repository is "buildable", i.e. not broken (Tests are passing, and the lint and other code standards changes are acceptable)
-- Comprehensible change log is provided on the workshopper github master branch in a CHANGELOG.md file. This could be made manually while making a new release on the repository, or prepared automatically from a script (read further below for suggestions)
+- New version of the package should follow [semantic versioning](http://semver.org/);
+- Ensure project github repository of the workshopper is correctly setup and working with [Travis CI](http://travis-ci.org/);
+- Master branch of the github repository has at least basic coverage for tests and code quality;
+- Provide comprehensive changelog for the release;
 
 Please note that deployments to npm are made regularly and on request. Hotfixes with urgency are discouraged (i.e. please respect the time of volunteers working on the deployments)
 
-## Submit deployment request
+## Submiting a deployment request
 
-Assuming you want to have a deployment of your package to npm:
+Steps to follow:
 - Please read and prepare the prerequisites mentioned in the "Requirements" section
-- Create a request ticket on the board for [deployment requests](https://github.com/workshopper/org/projects)
+- Create a request ticket on the board for [deployment requests](https://github.com/workshopper/org/projects/1)
 - Be patient and provide support where necessary
 
 ## Guidelines
 
-This list is aimed to help you in making quick progress in meeting the requirements for deploying your workshopper on npm.
+This list is aimed to help you progress in preparing your package for deployment.
 
 ### Travis CI
-- Free service for open source projects
-- The repository should shall a green badge when you embed the following markup in your README.md in the root folder of the workshopper github repository
+- Free service for open source projects;
+- Runs tests and code quality checks automatically;
+- The master branch of your repository should be passing the checks;
 
+Here's an example badge you can [take for your particular repository](https://docs.travis-ci.com/user/status-images/).
 ```md
 [![Build Status](https://travis-ci.org/workshopper/javascripting.svg?branch=master)](https://travis-ci.org/workshopper/javascripting)
 ```
-- [Read further](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/) about node.js specific environments.
+[Further reading on Travis CI with node.js](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/).
 
-### Change logs
+### Changelogs
 - Should be named as CHANGELOG or CHANGELOG.md
 - Should reside in the root of the master of the github repository
 - Should contain brief information about the changes done between releases
-- Could use an automated tool such as [standard-version](https://github.com/conventional-changelog/standard-version) or
+- Could use an automated tool such as [standard-version](https://github.com/conventional-changelog/standard-version)
+
+Here's an example of [automatically generated changelog](https://github.com/angular/angular.js/blob/master/CHANGELOG.md) 
+which can be generated following [commit message conventions](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit).

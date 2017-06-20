@@ -15,7 +15,6 @@ i.e. On Feb. 17, 2017 this would include following versions:
 >=7.0.0 <=7.5.0
 >=6.0.0 <=6.9.5
 >=5.7.0 <=5.12.0
->=4.3.2 <=4.7.3
 ```
 
 ## Operating Systems & CLI's

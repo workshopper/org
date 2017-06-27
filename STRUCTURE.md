@@ -46,7 +46,7 @@ to the repository in question and the related npm project.
 |------------|------|
 | [adventure](https://github.com/workshopper/adventure) ※¹ | _[@substack](https://github.com/substack)_ ※² |
 | [browserify-adventure](https://github.com/workshopper/browserify-adventure) | _[@substack](https://github.com/substack)_ ※² |
-| [goingnative](https://github.com/workshopper/goingnative) | _[@rvagg](https://github.com/rvagg)_ ※² |
+| [goingnative](https://github.com/workshopper/goingnative) | [@AnshulMalik](https://github.com/AnshulMalik) |
 | [how-to-markdown](https://github.com/workshopper/how-to-markdown) | [@denysdovhan](https://github.com/denysdovhan) |
 | [how-to-npm](https://github.com/workshopper/how-to-npm) | [@watilde](https://github.com/watilde), [@EmmaRamirez](https://github.com/EmmaRamirez), [@pnn](https://github.com/pnn) |
 | [i18n-it-all](https://github.com/workshopper/i18n-it-all) | [@martinheidegger](https://github.com/martinheidegger) |

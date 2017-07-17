@@ -1,4 +1,4 @@
-# Compatibiliy Guidelines for Workshoppers
+# Compatibility Guidelines for Workshoppers
 
 To make it easier to decide for the various workshoppers what versions they should be compatible with and to give
 users and mentors a way to clearly communicate the compatibility of workshoppers.

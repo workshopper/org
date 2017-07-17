@@ -34,7 +34,7 @@ mentioning which repo you need access for. One of the leads of the project/repos
 ### Core Team
 
 The core team exists to limit complete access to the organization. The core team has full write permission to the organization.
-This destinction exists **for safety reasons only**.
+This distinction exists **for safety reasons only**.
 
 ### Lead maintainers
 

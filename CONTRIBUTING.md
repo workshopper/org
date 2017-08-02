@@ -21,7 +21,7 @@ The workshopper organization has an open governance model and welcomes new contr
 
 ## Rules
 
-There are a few basic ground-rules for contributors (from [openopensource.org](http://openopensource.org/):
+There are a few basic ground-rules for contributors (from [openopensource.org](http://openopensource.org/)):
 
 1. **No `--force` pushes** or modifying the Git history in any way.
 1. **Non-master branches** ought to be used for ongoing work.
@@ -45,7 +45,7 @@ This document will guide you through the contribution process.
 
 Fork the workshopper and check out your copy locally.
 
-> In the examples below, replace <username> with your username, and <workshopper> with the name of the workshopper.
+> In the examples below, replace `<username>` with your username, and `<workshopper>` with the name of the workshopper.
 
 ```text
 $ git clone git@github.com:<username>/<workshopper>.git
@@ -134,7 +134,7 @@ Bug fixes and features **should come with tests**. Please note that not all work
 $ git push origin my-branch
 ```
 
-Go to https://github.com/<username>/<workshopper> and select your branch.
+Go to `https://github.com/<username>/<workshopper>` and select your branch.
 Click the 'Pull Request' button and fill out the form.
 
 Pull requests are usually reviewed within a few days. If there are comments

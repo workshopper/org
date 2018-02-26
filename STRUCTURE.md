@@ -52,7 +52,7 @@ to the repository in question and the related npm project.
 | [i18n-it-all](https://github.com/workshopper/i18n-it-all) | [@martinheidegger](https://github.com/martinheidegger) |
 | [javascripting](https://github.com/workshopper/javascripting) | [@sethvincent](https://github.com/sethvincent), [@SomeoneWeird](https://github.com/SomeoneWeird), [@AnshulMalik](https://github.com/AnshulMalik), [@itzsaga](https://github.com/itzsaga), [@AVGP](https://github.com/AVGP), [@sauban](https://github.com/sauban) |
 | [learn-sass](https://github.com/workshopper/learn-sass) | [@claudiopro](https://github.com/claudiopro) |
-| [learnyounode](https://github.com/workshopper/learnyounode) | [@martinheidegger](https://github.com/martinheidegger) |
+| [learnyounode](https://github.com/workshopper/learnyounode) | [@AnshulMalik](https://github.com/AnshulMalik) |
 | [learnyoureact](https://github.com/workshopper/learnyoureact) | [@kohei-takata](https://github.com/kohei-takata) |
 | [levelmeup](https://github.com/workshopper/levelmeup) | [@martinheidegger](https://github.com/martinheidegger) |
 | [list](https://github.com/workshopper/list) | _[@linclark](https://github.com/linclark)_ ※² |

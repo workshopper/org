@@ -2,6 +2,8 @@
 
 This document should help you when deploying new workshopper tutorials [to npm](https://www.npmjs.com/org/workshopper) and on github.
 
+_Note:_ We have control over the following [npm organizations](https://www.npmjs.com/docs/orgs/): [workshopper](https://www.npmjs.com/org/workshopper) and [nodeschool](https://www.npmjs.com/org/workshopper). If you need access to either please create an issue in this repository, mentioning your intent and npm username.
+
 ## Current versions and build status
 
 workshopper | NPM | Github | CI |

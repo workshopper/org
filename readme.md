@@ -1,3 +1,7 @@
+# Contributing Warning!
+
+There is currently no organizer actively working in the workshopper repositories. Hence, your contributions could take some time to be deployed, or they might even not be deployed at all.
+
 # :wave: Hello Tutorial Writers.
 
 This is a github organization meant **for you**!
